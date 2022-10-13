@@ -1,0 +1,78 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #090911;
+opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #090911;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #090911;
+}
+body{
+    background-color: #f29341;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    /* background-color: orchid; */
+    display: flex;
+    /* align-content: center; */
+    margin: auto;
+    margin-top: 100px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 400px;
+}
+.login-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-form{
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: 2px solid #231F42;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 63px;
+    font-family: Fira Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.loggin-button{
+   
+    background-color: transparent;
+    border: 2px solid #231F42;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 63px;
+    background: #231F42;
+    border-radius: 0px 0px 3px 3px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

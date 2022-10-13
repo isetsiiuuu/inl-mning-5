@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(rgb(225, 101, 165),#18092e,#18092e);
+}
+
+.container{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.34);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    margin-top: 109px;
+}
+.ticket-row1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}
+.ticket-row2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    background-color: #d7d7d7;
+}
+.ticket-row3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #c1bfbf;
+    padding-top: 10px;
+}
+.ticket-inner {
+    display: flex;
+    flex-direction: row;
+}
+.ticket-row3:last-child {
+    border-right: 0;
+}
+.wq-event{
+
+}
+.event-place{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+.event-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: #F56B9A;
+    font-weight: 400;
+    /* list-style-type:; */
+    font-size: 32px;
+    line-height:37.28px;
+    text-align:left;
+}
+
+.important-info-ticket{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 5px;
+    background-color: #d7d7d7;
+    border-right: 1px dashed rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.4);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}
+.code-bar {
+    padding-top: 45px;
+    font-family: 'Libre Barcode 128';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 101px;
+    line-height: 101px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.ticket-number {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    display: block;
+    padding: 0 30px 30px 30px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
